@@ -46,7 +46,7 @@ exports.findAll = (req, res) => {   // find all employees by occupation as our c
     .catch(err => {
       res.status(500).send({
         message:
-          err.message || "Error occured while retreiving all employees by Occupation."
+          err.message || "Error occured while retreiving all employees."
       });
     });
 };
