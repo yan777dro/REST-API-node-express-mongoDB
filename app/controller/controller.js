@@ -3,7 +3,6 @@ const Student = db.students;
 
 
 
-
 exports.create = (req, res) => {
   
     if ( !req.body.firstName  && !req.body.lastName && !req.body.Major && !req.body.GPA && !req.body.Graduated) {
